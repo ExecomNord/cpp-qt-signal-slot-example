@@ -18,7 +18,7 @@ void Example::onButtonClicked(bool checked)
     Q_UNUSED(checked)
 
     m_button->setEnabled(false);
-    emit test("This is an event test");
+    emit test("This is an sitnal test");
 }
 
 void Example::onTimeout()

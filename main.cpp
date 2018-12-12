@@ -4,10 +4,10 @@
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    a.setQuitOnLastWindowClosed(true);
+    QApplication application(argc, argv);
+    application.setQuitOnLastWindowClosed(true);
 
     Example example;
 
-    return a.exec();
+    return application.exec();
 }
